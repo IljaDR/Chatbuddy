@@ -29,14 +29,22 @@ public class FishManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        animator.SetBool("IsSad", false);
-
         switch (fishEmotion)
         {
             case Emotion.sadness:
                 animator.SetBool("IsSad", true);
                 break;
+            case Emotion.fear:
+                animator.SetBool("IsFear", true);
+                break;
+            case Emotion.anger:
+                animator.SetBool("IsAnger", true);
+                break;
+            case Emotion.joy:
+                animator.SetBool("IsSad", true);
+                break;
             default:
+                animator.SetBool("IsNeutral", true);
                 break;
         }
 

@@ -311,6 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   animator: {fileID: 876317821}
+  fishEmotion: 0
 --- !u!95 &876317821
 Animator:
   serializedVersion: 3
@@ -362,6 +363,7 @@ MonoBehaviour:
   ip: 127.0.0.1
   port: 10000
   myId: 0
+  fish: {fileID: 876317820}
 --- !u!4 &1554914533
 Transform:
   m_ObjectHideFlags: 0
