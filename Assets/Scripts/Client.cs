@@ -137,8 +137,8 @@ public class Client : MonoBehaviour
                         Debug.Log("Failed to assign emotion");
                         break;
                 }
-                fish.emotionCountdown = 10;
-                fish.countdownLength += 15;
+                fish.emotionCountdown = 7;
+                fish.countdownLength = 15;
                 /*receivedData.Reset(HandleData(_data));*/
                 stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
             }

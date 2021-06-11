@@ -26,7 +26,7 @@ public class FishManager : MonoBehaviour
     private float distance;
     private float canvasHeight = 8;
     private float canvasWidth = 15;
-    public float countdownLength = 20;
+    public float countdownLength = 0;
     public float emotionCountdown = 10;
 
 
